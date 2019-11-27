@@ -1,0 +1,46 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  containerLista: {
+    backgroundColor: '#fff',
+    padding: 10,
+    elevation: 1,
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 5},
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+  },
+  containerItem: {
+    width: 150,
+    height: 100,
+    borderColor: '#ddd',
+    borderRadius: 5,
+    borderWidth: 1,
+    marginRight: 10,
+    marginLeft: 10,
+  },
+  imagemItem: {flex: 1, width: null, height: null, resizeMode: 'cover'},
+  textoItem: {textAlign: 'center', paddingTop: 5, paddingBottom: 5},
+  containerFooter: {
+    backgroundColor: '#fff',
+    padding: 10,
+    elevation: 1,
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 5},
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  botaoRotas: {
+    borderColor: '#ddd',
+    borderWidth: 1,
+    padding: 10,
+    borderRadius: 5,
+    backgroundColor: '#081690',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  textoBotao: {marginLeft: 10, color: '#fff', fontWeight: 'bold'},
+});
